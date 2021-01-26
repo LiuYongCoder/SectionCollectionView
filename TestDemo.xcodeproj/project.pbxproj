@@ -17,6 +17,14 @@
 		0341547C25BEB7C100251AC2 /* TestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0341547B25BEB7C100251AC2 /* TestDemoUITests.m */; };
 		0341549525BEB84B00251AC2 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0341549125BEB84B00251AC2 /* UIView+Frame.m */; };
 		0341549625BEB84B00251AC2 /* UIColor+SNFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0341549225BEB84B00251AC2 /* UIColor+SNFoundation.m */; };
+		03637BDC25BFFDA400603D5B /* TestRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03637BDA25BFFDA400603D5B /* TestRootViewController.m */; };
+		03637BDD25BFFDA400603D5B /* TestRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03637BDB25BFFDA400603D5B /* TestRootViewController.xib */; };
+		03637BE725BFFEF000603D5B /* BasicsShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03637BE525BFFEF000603D5B /* BasicsShowViewController.m */; };
+		03637BE825BFFEF000603D5B /* BasicsShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03637BE625BFFEF000603D5B /* BasicsShowViewController.xib */; };
+		03637BF225C00B8100603D5B /* BasicsHeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03637BF025C00B8100603D5B /* BasicsHeaderCollectionReusableView.m */; };
+		03637BF325C00B8100603D5B /* BasicsHeaderCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03637BF125C00B8100603D5B /* BasicsHeaderCollectionReusableView.xib */; };
+		03637BFE25C00D8600603D5B /* BasicsShowCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03637BFC25C00D8600603D5B /* BasicsShowCollectionViewCell.m */; };
+		03637BFF25C00D8600603D5B /* BasicsShowCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03637BFD25C00D8600603D5B /* BasicsShowCollectionViewCell.xib */; };
 		BF72F05CFF46DF64A43CCD69 /* libPods-TestDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9517BD2EBEBADAE45077E90E /* libPods-TestDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +67,18 @@
 		0341549225BEB84B00251AC2 /* UIColor+SNFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SNFoundation.m"; sourceTree = "<group>"; };
 		0341549325BEB84B00251AC2 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		0341549425BEB84B00251AC2 /* MacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDefine.h; sourceTree = "<group>"; };
+		03637BD925BFFDA400603D5B /* TestRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestRootViewController.h; sourceTree = "<group>"; };
+		03637BDA25BFFDA400603D5B /* TestRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRootViewController.m; sourceTree = "<group>"; };
+		03637BDB25BFFDA400603D5B /* TestRootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestRootViewController.xib; sourceTree = "<group>"; };
+		03637BE425BFFEF000603D5B /* BasicsShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicsShowViewController.h; sourceTree = "<group>"; };
+		03637BE525BFFEF000603D5B /* BasicsShowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicsShowViewController.m; sourceTree = "<group>"; };
+		03637BE625BFFEF000603D5B /* BasicsShowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasicsShowViewController.xib; sourceTree = "<group>"; };
+		03637BEF25C00B8100603D5B /* BasicsHeaderCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicsHeaderCollectionReusableView.h; sourceTree = "<group>"; };
+		03637BF025C00B8100603D5B /* BasicsHeaderCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicsHeaderCollectionReusableView.m; sourceTree = "<group>"; };
+		03637BF125C00B8100603D5B /* BasicsHeaderCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasicsHeaderCollectionReusableView.xib; sourceTree = "<group>"; };
+		03637BFB25C00D8600603D5B /* BasicsShowCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicsShowCollectionViewCell.h; sourceTree = "<group>"; };
+		03637BFC25C00D8600603D5B /* BasicsShowCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicsShowCollectionViewCell.m; sourceTree = "<group>"; };
+		03637BFD25C00D8600603D5B /* BasicsShowCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasicsShowCollectionViewCell.xib; sourceTree = "<group>"; };
 		0F2B992BA4B699E5909D7517 /* Pods-TestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDemo.release.xcconfig"; path = "Target Support Files/Pods-TestDemo/Pods-TestDemo.release.xcconfig"; sourceTree = "<group>"; };
 		4DC30D25281724936EDBDE85 /* Pods-TestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDemo.debug.xcconfig"; path = "Target Support Files/Pods-TestDemo/Pods-TestDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		9517BD2EBEBADAE45077E90E /* libPods-TestDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,10 +145,14 @@
 			isa = PBXGroup;
 			children = (
 				0341548F25BEB84B00251AC2 /* Category */,
+				03637BF725C00B9300603D5B /* Basics */,
 				0341545425BEB7BE00251AC2 /* AppDelegate.h */,
 				0341545525BEB7BE00251AC2 /* AppDelegate.m */,
 				0341545A25BEB7BE00251AC2 /* ViewController.h */,
 				0341545B25BEB7BE00251AC2 /* ViewController.m */,
+				03637BD925BFFDA400603D5B /* TestRootViewController.h */,
+				03637BDA25BFFDA400603D5B /* TestRootViewController.m */,
+				03637BDB25BFFDA400603D5B /* TestRootViewController.xib */,
 				0341545D25BEB7BE00251AC2 /* Main.storyboard */,
 				0341546025BEB7C000251AC2 /* Assets.xcassets */,
 				0341546225BEB7C000251AC2 /* LaunchScreen.storyboard */,
@@ -166,6 +190,22 @@
 				0341549125BEB84B00251AC2 /* UIView+Frame.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		03637BF725C00B9300603D5B /* Basics */ = {
+			isa = PBXGroup;
+			children = (
+				03637BE425BFFEF000603D5B /* BasicsShowViewController.h */,
+				03637BE525BFFEF000603D5B /* BasicsShowViewController.m */,
+				03637BE625BFFEF000603D5B /* BasicsShowViewController.xib */,
+				03637BEF25C00B8100603D5B /* BasicsHeaderCollectionReusableView.h */,
+				03637BF025C00B8100603D5B /* BasicsHeaderCollectionReusableView.m */,
+				03637BF125C00B8100603D5B /* BasicsHeaderCollectionReusableView.xib */,
+				03637BFB25C00D8600603D5B /* BasicsShowCollectionViewCell.h */,
+				03637BFC25C00D8600603D5B /* BasicsShowCollectionViewCell.m */,
+				03637BFD25C00D8600603D5B /* BasicsShowCollectionViewCell.xib */,
+			);
+			path = Basics;
 			sourceTree = "<group>";
 		};
 		1BDCDFFA4C46F9FECC773E5E /* Frameworks */ = {
@@ -281,8 +321,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0341546425BEB7C000251AC2 /* LaunchScreen.storyboard in Resources */,
+				03637BFF25C00D8600603D5B /* BasicsShowCollectionViewCell.xib in Resources */,
 				0341546125BEB7C000251AC2 /* Assets.xcassets in Resources */,
+				03637BDD25BFFDA400603D5B /* TestRootViewController.xib in Resources */,
+				03637BF325C00B8100603D5B /* BasicsHeaderCollectionReusableView.xib in Resources */,
 				0341545F25BEB7BE00251AC2 /* Main.storyboard in Resources */,
+				03637BE825BFFEF000603D5B /* BasicsShowViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,9 +395,13 @@
 			files = (
 				0341549525BEB84B00251AC2 /* UIView+Frame.m in Sources */,
 				0341545C25BEB7BE00251AC2 /* ViewController.m in Sources */,
+				03637BDC25BFFDA400603D5B /* TestRootViewController.m in Sources */,
 				0341545625BEB7BE00251AC2 /* AppDelegate.m in Sources */,
 				0341546725BEB7C000251AC2 /* main.m in Sources */,
+				03637BE725BFFEF000603D5B /* BasicsShowViewController.m in Sources */,
 				0341549625BEB84B00251AC2 /* UIColor+SNFoundation.m in Sources */,
+				03637BF225C00B8100603D5B /* BasicsHeaderCollectionReusableView.m in Sources */,
+				03637BFE25C00D8600603D5B /* BasicsShowCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="BasicsShowCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="80"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="audio_place" translatesAutoresizingMaskIntoConstraints="NO" id="fNs-RD-ocP">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="80"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="fNs-RD-ocP" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="3p2-Ke-lpS"/>
+                <constraint firstAttribute="bottom" secondItem="fNs-RD-ocP" secondAttribute="bottom" id="DBf-Oy-4XI"/>
+                <constraint firstAttribute="trailing" secondItem="fNs-RD-ocP" secondAttribute="trailing" id="eve-Jt-x9v"/>
+                <constraint firstItem="fNs-RD-ocP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="pFv-zt-rBq"/>
+            </constraints>
+            <point key="canvasLocation" x="140.57971014492756" y="122.54464285714285"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="audio_place" width="160" height="120"/>
+    </resources>
+</document>
