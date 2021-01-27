@@ -7,6 +7,7 @@
 
 #import "TestRootViewController.h"
 #import "BasicsShowViewController.h"
+#import "OpenShowViewController.h"
 
 @interface TestRootViewController ()
 
@@ -30,7 +31,8 @@
 
 - (IBAction)buttonClickTwo:(id)sender
 {
-    
+    OpenShowViewController *vc = [OpenShowViewController new];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

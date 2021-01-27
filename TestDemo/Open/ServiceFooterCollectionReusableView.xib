@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR" customClass="ServiceFooterCollectionReusableView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="215"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="fje-Pt-A7N">
+                    <rect key="frame" x="0.0" y="15" width="320" height="200"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="jAd-lk-f6p">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="service_footer_arrow_image" translatesAutoresizingMaskIntoConstraints="NO" id="wJv-yk-hNd">
+                    <rect key="frame" x="25" y="0.0" width="20" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="O1X-If-PlS"/>
+                        <constraint firstAttribute="width" constant="20" id="vRF-UY-JBX"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="fje-Pt-A7N" firstAttribute="top" secondItem="wJv-yk-hNd" secondAttribute="bottom" id="3aG-RK-QzW"/>
+                <constraint firstItem="wJv-yk-hNd" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="50G-Xo-XmG"/>
+                <constraint firstAttribute="bottom" secondItem="fje-Pt-A7N" secondAttribute="bottom" id="J5I-KU-fKx"/>
+                <constraint firstItem="fje-Pt-A7N" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="J76-Yz-b5m"/>
+                <constraint firstItem="wJv-yk-hNd" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" constant="25" id="afe-LI-0mk"/>
+                <constraint firstAttribute="trailing" secondItem="fje-Pt-A7N" secondAttribute="trailing" id="ekj-vJ-5hK"/>
+            </constraints>
+            <connections>
+                <outlet property="serviceFooterArrowsImageViewLayoutLeft" destination="afe-LI-0mk" id="0mg-M4-B6b"/>
+                <outlet property="serviceFooterCollectionView" destination="fje-Pt-A7N" id="o0B-2E-808"/>
+                <outlet property="serviceFooterLayout" destination="jAd-lk-f6p" id="1AB-GW-fgu"/>
+            </connections>
+            <point key="canvasLocation" x="108.69565217391305" y="72.991071428571431"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="service_footer_arrow_image" width="17" height="13"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
